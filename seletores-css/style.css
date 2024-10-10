@@ -1,0 +1,42 @@
+/*seletores*/
+
+p [required]{
+    border: 2px solid tomato;
+}
+a[href="#contato"] {
+    border: 2px solid greenyellow;
+}
+
+/*seletor iniciar com */
+[href^="#"]{
+    background: tomato;
+}
+/*seletor terminar com*/
+[href$=".com"]{
+    background:green;
+}
+
+/*Para selecionar o filho direto*/
+section > h2 {
+    color: tomato;
+}
+
+article{
+    background: lightgreen;
+    padding: 10px;
+}
+p{
+    margin: 0px;
+}
+p{
+    margin-bottom: 20px;
+}
+
+article p:last-child{
+    margin-bottom: 0px;
+}
+
+
+*{
+    border: 2px solid red
+}
