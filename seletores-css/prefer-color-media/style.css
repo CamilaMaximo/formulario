@@ -1,0 +1,31 @@
+@media (prefers-color-scheme:dark){
+    
+:root{
+    --fundo:#222;
+    --text-1:#eee;
+    --texto-2:#bbb;
+}
+}   
+/*caso nçao suporte o modo escuro coloque apenas o root puro em cima e embaixo o @media dark*/
+
+@media (prefers-color-scheme:light){
+    
+:root{
+    --fundo:#fff;
+    --text-1:#111;
+    --texto-2:#444;
+}
+}
+
+body{
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background: var(--fundo);
+}
+h1{
+    color: var(--texto-1);
+}
+p{
+   
+    color:var(--texto-2)
+}
